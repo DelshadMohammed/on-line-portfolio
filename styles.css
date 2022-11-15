@@ -1,5 +1,5 @@
-body {
-  margin: 0;
+* {
+  margin: auto;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -16,6 +16,11 @@ header {
   color: white;
   text-align: center;
 }
+.full-stack-dev {
+  color: teal;
+  font-size: 49px;
+  font-weight: bold;
+}
 
 a {
   text-decoration: none;
@@ -29,6 +34,8 @@ nav ul {
   padding: 0;
   margin: 0;
   text-align: center;
+  font-size: 15px;
+  font-weight: bold;
   -webkit-transition: max-height 0.4s;
   -ms-transition: max-height 0.4s;
   -moz-transition: max-height 0.4s;
@@ -44,7 +51,7 @@ nav ul li {
 nav ul li:hover {
   background-color: #718e9e;
 }
-
+/* sections stying */
 section {
   line-height: 1.5em;
   font-size: 0.9em;
@@ -52,31 +59,15 @@ section {
   width: 75%;
   margin: 0 auto;
 }
+/* images on page styling*/
 img {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  float: inherit;
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
-#about-me {
-  font-size: 50px;
-  font-weight: bold;
-  font-family: serif;
-  text-align: center;
-}
-#my-skills {
-  font-size: 50px;
-  font-weight: bold;
-  font-family: serif;
-  text-align: center;
-}
-#my-journey {
-  font-size: 50px;
-  font-weight: bold;
-  font-family: serif;
-  text-align: center;
-}
-#future-projects {
+/* header 2 styling*/
+.head-2 {
   font-size: 50px;
   font-weight: bold;
   font-family: serif;
@@ -94,6 +85,67 @@ img {
   display: none;
 }
 
+/* contact us form and styling of frame start*/
+#contact {
+  font-family: sans-serif;
+
+  color: rgb(0, 0, 0);
+}
+form {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback-input {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #cc6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #cc4949;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #cc6666;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #cc4949;
+}
+/* contact form and styling finish*/
+
+/* media screen queries*/
 @media screen and (max-width: 580px) {
   nav ul {
     max-height: 0;
