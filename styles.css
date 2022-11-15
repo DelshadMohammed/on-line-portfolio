@@ -1,14 +1,15 @@
+/* universal page  stying */
 * {
   margin: auto;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
-
+/* header 1 styling */
 h1 {
   font-family: serif;
   font-size: 50px;
 }
-
+/* header back ground stying */
 header {
   background: #030303;
   width: 100%;
@@ -16,12 +17,13 @@ header {
   color: white;
   text-align: center;
 }
+/* span-fullstack dev stying */
 .full-stack-dev {
   color: teal;
   font-size: 49px;
-  font-weight: bold;
+  font-weight: bolder;
 }
-
+/* nav styling stying start */
 a {
   text-decoration: none;
   color: inherit;
@@ -34,7 +36,7 @@ nav ul {
   padding: 0;
   margin: 0;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   -webkit-transition: max-height 0.4s;
   -ms-transition: max-height 0.4s;
@@ -51,7 +53,19 @@ nav ul li {
 nav ul li:hover {
   background-color: #718e9e;
 }
-/* sections stying */
+.handle {
+  width: 100%;
+  background: #446274;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 15px 10px;
+  cursor: pointer;
+  color: white;
+  display: none;
+}
+/* nav styling stying finish */
+
+/* sections stying for paragraphing */
 section {
   line-height: 1.5em;
   font-size: 0.9em;
@@ -74,17 +88,6 @@ img {
   text-align: center;
 }
 
-.handle {
-  width: 100%;
-  background: #446274;
-  text-align: left;
-  box-sizing: border-box;
-  padding: 15px 10px;
-  cursor: pointer;
-  color: white;
-  display: none;
-}
-
 /* contact us form and styling of frame start*/
 #contact {
   font-family: sans-serif;
@@ -99,7 +102,7 @@ form {
 }
 
 .feedback-input {
-  color: white;
+  color: rgb(5, 5, 5);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
